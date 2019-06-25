@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="119dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="112dp"
+        android:text="Part Number"
+        android:textColor="@color/white"
+        android:textSize="15pt"
+        app:layout_constraintBottom_toTopOf="@+id/existing_parts"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginEnd="12dp"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="15pt"
+        app:layout_constraintBottom_toTopOf="@+id/existing_parts"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+    <ListView
+        android:id="@+id/existing_parts"
+        android:layout_width="574dp"
+        android:layout_height="495dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/existing_parts_label" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_scalable"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <TextView
+        android:id="@+id/existing_parts_label"
+        android:layout_width="410dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="8dp"
+        android:text="Choose an Existing Part"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="518dp"
+        android:layout_height="157dp"
+        android:backgroundTint="@color/white"
+        android:bottomLeftRadius="20dp"
+        android:bottomRightRadius="20dp"
+        android:text="Cancel"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25pt"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/existing_parts_label"
+        app:layout_constraintVertical_bias="0.836" />
+
+</android.support.constraint.ConstraintLayout>

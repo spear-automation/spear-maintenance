@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "705658065264",
+    "firebase_url": "https://spear-maintenance.firebaseio.com",
+    "project_id": "spear-maintenance",
+    "storage_bucket": "spear-maintenance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705658065264:android:d191b21310effacd",
+        "android_client_info": {
+          "package_name": "com.spear.spearmaintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705658065264-k0ub9btria24sbsjslf3b4m53nq7f9rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXutt7ILefZhK3eqIVOtMJECqLQagO_Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705658065264-k0ub9btria24sbsjslf3b4m53nq7f9rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

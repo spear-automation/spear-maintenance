@@ -1,4 +1,4 @@
-package com.bluetooth.spearmaintenance.data;
+package com.spear.spearmaintenance.data;
 
 public class Constants {
     public final static String REQ_EXTRA = "request";

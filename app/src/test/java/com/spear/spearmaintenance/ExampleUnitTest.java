@@ -1,4 +1,4 @@
-package com.bluetooth.spearmaintenance;
+package com.spear.spearmaintenance;
 
 import org.junit.Test;
 

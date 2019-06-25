@@ -1,4 +1,4 @@
-package com.bluetooth.spearmaintenance;
+package com.spear.spearmaintenance;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bluetooth.spearmaintenance", appContext.getPackageName());
+        assertEquals("com.spear.spearmaintenance", appContext.getPackageName());
     }
 }
